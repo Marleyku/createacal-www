@@ -1,0 +1,24 @@
+name = "createacal-www"
+compatibility_date = "2026-09-03"
+workers_dev = true
+
+[assets]
+directory = "."
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+
+[[routes]]
+pattern = "createacal.com/*"
+zone_name = "createacal.com"
+
+[[routes]]
+pattern = "www.createacal.com/*"
+zone_name = "createacal.com"
+
+[[routes]]
+pattern = "calemarley.com/*"
+zone_name = "calemarley.com"
+
+[[routes]]
+pattern = "www.calemarley.com/*"
+zone_name = "calemarley.com"
