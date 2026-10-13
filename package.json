@@ -1,0 +1,13 @@
+{
+  "name": "createacal-www",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CreateACal / CaleMarley public marketing + legal static site",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}

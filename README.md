@@ -21,7 +21,7 @@ It does **not** include the private calendar application (`Marleyku/calendar` st
 Static files live in `public/`. Deploy with:
 
 ```bash
-npx wrangler deploy
+npm run deploy
 ```
 
 Hosted on Cloudflare Workers Assets. Source of truth: this GitHub repo.
